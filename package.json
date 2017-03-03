@@ -1,14 +1,15 @@
 {
-  "name": "react-simple-boilerplate",
+  "name": "Chatty",
   "version": "1.0.0",
-  "description": "Simple and lightweight Boilerplate for ReactJS projects",
+  "description": "WebSocket based chat client",
   "scripts": {
     "lint": "eslint src",
-    "start": "node server.js"
+    "start": "node server.js | node sockserver.js"
+
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/noahlotzer/react-simple-boilerplate.git"
+    "url": "https://github.com/Jmmercer/boiler.git"
   },
   "keywords": [
     "react",
@@ -19,12 +20,12 @@
     "edit",
     "webpack"
   ],
-  "author": "Noah-Jerome Lotzer <n.lotzer@neusta.de>",
-  "license": "MIT",
+  "author": "",
+  "license": "",
   "bugs": {
-    "url": "https://github.com/noahlotzer/react-simple-boilerplate/issues"
+    "url": " "
   },
-  "homepage": "https://github.com/noahlotzer/react-simple-boilerplate",
+  "homepage": "https://github.com/Jmmercer/boiler.git",
   "engines": {
     "node": ">=6.0.0"
   },
